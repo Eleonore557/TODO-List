@@ -14,29 +14,29 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   name: 'TodoList',
   data () {
     return {
       newTodo: '',
       idForTodo: 3,
-      todos: [
-        {
-          'id': 1,
-          'title': 'Finish Vue Screencast',
-          'completed': false,
-          'editing': false,
-        },
-          {
-          'id': 2,
-          'title': 'Take over world',
-          'completed': false,
-          'editing': false,
-        },
-      ]
-    }
+      todos: []
+    };
   },
+       mounted(){
+     axios.get('http://localhost:3000/')
+     .then((response) =>{
+      console.log(response.data);
+      this.todos = response.data;
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+     },
     methods: {
+
       addTodo() {
         if(this.newTodo.trim().length == 0){
           return

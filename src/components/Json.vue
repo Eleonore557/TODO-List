@@ -34,7 +34,6 @@ export default {
   },
   mounted() {
     axios.get('http://localhost:3000/')
-
       .then((response) =>{
       console.log(response.data);
       this.User = response.data;

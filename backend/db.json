@@ -1,5 +1,17 @@
 {
-  "firstName": "Joe",
-  "lastName": "Smith",
-  "age" : 32
+  "todos": [
+    {
+      "id": 0,
+      "name": "Go to the gym"
+    },
+    {
+      "id": 1,
+      "name": "walk the dog"
+    },
+    {
+      "id": 2,
+      "name": "Get some pizza"
+    }
+  ]
 }
+
