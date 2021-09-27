@@ -1,17 +1,16 @@
-{
-  "todos": [
+[
+
     {
       "id": 0,
-      "name": "Go to the gym"
+      "name": "Carte 1"
     },
     {
       "id": 1,
-      "name": "walk the dog"
+      "name": "Carte 2"
     },
     {
       "id": 2,
-      "name": "Get some pizza"
+      "name": "Carte 3"
     }
-  ]
-}
 
+  ]

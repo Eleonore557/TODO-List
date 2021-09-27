@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 var config = require('./db.json');
-app.get('/', function (req, res) {
+app.get('/user', function (req, res) {
   res.send(config)
 })
 

@@ -1419,6 +1419,11 @@
   "resolved" "https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz"
   "version" "1.0.0"
 
+"boostrap@^2.0.0":
+  "integrity" "sha512-JEeFMOweKeGXEM9rt95eaVISOkluG9aKcl0jQCETOVH9jynCZxuBZe2oWgcWJpj5wqYWZl625SnW7OgHT2Ineg=="
+  "resolved" "https://registry.npmjs.org/boostrap/-/boostrap-2.0.0.tgz"
+  "version" "2.0.0"
+
 "bootstrap-vue@^2.21.2":
   "integrity" "sha512-0Exe+4MZysqhZNXIKf4TzkvXaupxh9EHsoCRez0o5Dc0J7rlafayOEwql63qXv74CgZO8E4U8ugRNJko1vMvNw=="
   "resolved" "https://registry.npmjs.org/bootstrap-vue/-/bootstrap-vue-2.21.2.tgz"
