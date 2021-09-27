@@ -1,4 +1,11 @@
-# todo-app
+
+# Comment lancer le projet ?
++ npm run dev 
++ dans un autre terminal: aller dans le ficher /backend et lancer : node server.js
++ installer axios: npm i axios
++ ps: si il y a des problèmes de CORS : npm i cors /ou installer l'extension Allow CORS sur Google chrome
+
+## todo-app
 
 > A Vue.js project
 
