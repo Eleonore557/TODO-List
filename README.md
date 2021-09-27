@@ -1,4 +1,11 @@
-# todo-app
+
+# Comment lancer le projet ?
+npm run dev
+
+## Aller dans le ficher /backend
+node server.js
+
+## todo-app
 
 > A Vue.js project
 
