@@ -4,7 +4,7 @@
       <nav class="navbar navbar-light bg-light justify-content-between">
         <a class="navbar-brand">Barre de Navigation</a>
         <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Rechercher" v-model="newTodo" @keyup.enter="addTodo">
+          <input class="form-control mr-sm-2" type="search" placeholder="Ajouter une carte" aria-label="Ajouter une carte" v-model="newTodo" @keyup.enter="addTodo">
         </form>
       </nav>
       <div v-for="(todo, index) in todos" :key="todo.id" class="card" style="width: 18rem; margin: 16px auto;">
